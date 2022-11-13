@@ -1,5 +1,3 @@
-import { danger, warn } from "danger";
-
 /**
  * this dangerjs plugin decorates your pull-requests when it finds eslint-disable references
  */
