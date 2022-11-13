@@ -1,3 +1,0 @@
-import eslintDisableWarn from './'
-
-eslintDisableWarn()

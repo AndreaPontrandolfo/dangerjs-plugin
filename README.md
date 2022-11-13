@@ -11,17 +11,18 @@
 Install:
 
 ```sh
-yarn add danger-plugin-eslint-disable-warn --dev
+pnpm i -D danger-plugin-eslint-disable-warn
 ```
 
 At a glance:
 
 ```js
 // dangerfile.js
-import eslintDisableWarn from 'danger-plugin-eslint-disable-warn'
+import eslintDisableWarn from "danger-plugin-eslint-disable-warn";
 
-eslintDisableWarn()
+eslintDisableWarn();
 ```
+
 ## Changelog
 
 See the GitHub [release history](https://github.com/AndreaPontrandolfo/danger-plugin-eslint-disable-warn/releases).
