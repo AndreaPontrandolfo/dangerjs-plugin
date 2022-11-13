@@ -1,0 +1,3 @@
+import eslintDisableWarn from './'
+
+eslintDisableWarn()
