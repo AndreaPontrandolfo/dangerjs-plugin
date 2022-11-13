@@ -4,7 +4,7 @@
 export default function eslintDisableWarn() {
   const modifiedFiles = danger.git.modified_files.filter(
     (path) =>
-      path.endsWith("js") || path.endsWith("ts") || path !== "dangerfile.js"
+      (path.endsWith("js") && path !== "dangerfile.js") || path.endsWith("ts")
   );
 
   const structuredModifiedFiles = modifiedFiles.map((file) => {
